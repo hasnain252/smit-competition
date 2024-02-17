@@ -1,0 +1,124 @@
+body{
+    background-color: gold;
+}
+
+
+nav{
+    background-color: gold;
+}
+
+nav > .container-fluid > .navbar-brand > img{
+        filter: grayscale(1) brightness(0) !important;
+        width: 400px;
+      
+}
+
+.nav-item > .nav-link{
+    color: black;
+    font-weight: bolder;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.nav-item > .nav-link:hover{
+    color: gold;
+    font-weight: bolder;
+    background-color: black;
+}
+
+.order-btn{
+    border: 2px solid black;
+    padding: 5px 5px;
+}
+
+.carousel-item > img{
+    width: 100%;
+    height: 500px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container > .card{
+    background-color: transparent;
+    border:none;
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 14px;
+    min-width: 18rem;
+}
+
+.container .card h5{
+    font-weight: bolder;
+    font-size: 29px;
+}
+
+.container .card img{
+    width:70%;
+    display: flex;
+
+    align-self: center;
+    
+}
+
+
+.btn-special{
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 0px;
+}
+
+.btn-special:hover{
+    background-color: black;
+    color: gold;
+}
+
+.card-img{
+    border-radius: 0px;
+}
+
+.sideimg{
+    width: 90%;
+}
+
+footer{
+    background-color: black;
+    color: gold;
+    padding: 20px 20px;
+}
+
+footer > marquee>span{
+    margin: 10px 20px;
+}
+
+
+.footer_options{
+    display: flex;
+}
+.footer_options > .right{
+    display: flex;
+    text-align: right;
+}
+
+.footer_options > .right > span{
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.carousel-caption > h5{
+    font-size: 20px;
+}
+
